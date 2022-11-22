@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a[5]={1,2,3,4,5};
+	int b[5]={1,2,3,4,5};
+	int i,n;
+	clrscr();
+	for(i=0;i<5;i++)
+	{
+		if(a[i]==b[i])
+		{
+			n=1;
+
+		}
+		else
+		{
+			n=0;
+			break;
+		}
+	}
+	n==1 ? printf("all array values is same:"):printf("all array values is not same:");
+	getch();
+}

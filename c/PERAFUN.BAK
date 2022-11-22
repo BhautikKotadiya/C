@@ -1,0 +1,61 @@
+#include<stdio.h>
+#include<conio.h>
+void array(int a[5],int i)
+{
+	for(i=0;i<5;i++)
+	{
+		printf("array is:- %d\n",a[i]);
+	}
+}
+void pattern(int j,int k)
+{
+	for(j=1;j<=5;j++)
+	{
+		for(k=1;k<=9;k++)
+		{
+			if(6-j<=k && j+4>=k)
+			{
+				printf(" *");
+			}
+			else
+			{
+				printf("  ");
+			}
+		}
+		printf("\n");
+	}
+}
+void ifelselader(int b)
+{
+	printf("enter your age:- ");
+	scanf("%d",&b);
+	if(b<=1 && b>=14)
+	{
+		printf("you are child");
+	}
+	else if(b<=15 && b>=20)
+	{
+		printf("you are teenager");
+	}
+	else if(b<=21 && b>=35)
+	{
+		printf("you are young");
+	}
+	else if(b<=36 && b>=60)
+	{
+		printf("you are old");
+	}
+}
+void main()
+{
+	int a[5]={1,2,3,4,5};
+	int i;
+	int j;
+	int k;
+	int b;
+	clrscr();
+	array(a,i);
+	pattern(j,k);
+	ifelselader(b);
+	getch();
+}

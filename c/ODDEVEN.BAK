@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b;
+	clrscr();
+	printf("the values of a is:- ");
+	scanf("%d",&a);
+	printf("the values of b is:- ");
+	scanf("%d",&b);
+	a>b?printf("maximum values is:- a\n"):printf("minimum values is:- a\n");
+	a<b?printf("maximum values is:- b\n"):printf("minimum values is:- b\n");
+	getch();
+}

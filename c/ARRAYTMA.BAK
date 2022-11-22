@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a[5]={1,2,3,4,5};
+	int b[5]={1,2,3,4,7};
+	int i,j=0;
+	clrscr();
+	for(i=0;i<=5;i++)
+	{
+		if(j<a[i])
+		{
+			j=a[i];
+		}
+		if(j<b[i])
+		{
+			j=b[i];
+
+		}
+	}
+	printf("max is : %d",j);
+
+	getch();
+}

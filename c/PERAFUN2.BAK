@@ -1,0 +1,66 @@
+#include<stdio.h>
+#include<conio.h>
+void switchcase(int a,int b,int c,int d)
+{
+	printf(" [1] xiomi :\n [2] samsung :\n [3] vivo :\n");
+	printf("enter your choice :- ");
+	scanf("%d",&a);
+	switch(a)
+	{
+		case 1:
+			printf("welcome to xiomi:\n");
+			printf(" [1] redmi note 11\n [2] remdi note 12 pro\n");
+			printf("enter your choice:- ");
+			scanf("%d",&b);
+			switch(b)
+			{
+				case 1:
+					printf("55,000");
+					break;
+				case 2:
+					printf("65,000");
+					break;
+			}
+			break;
+		case 2:
+			printf("welcome to samsung:\n");
+			printf(" [1] S22 \n [2] S22 ultra\n");
+			printf("enter your choice:- ");
+			scanf("%d",&c);
+			switch(c)
+			{
+				case 1:
+					printf("75,000");
+					break;
+				case 2:
+					printf("1,50,000");
+					break;
+			}
+			break;
+		case 3:
+			printf("welcome to vivo:\n");
+			printf(" [1] vivo y73 \n [2] vivo v30\n");
+			printf("enter your choice:- ");
+			scanf("%d",&d);
+			switch(d)
+			{
+				case 1:
+					printf("15,000");
+					break;
+				case 2:
+					printf("30,000");
+					break;
+			}
+			break;
+		default:
+			printf("please enter velid number");
+			break;
+	}
+}
+void main()
+{
+	int a,b,c,d;
+	clrscr();
+	switchcase(a,b,c,d);
+	getch();
+}

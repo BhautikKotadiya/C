@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a[2][2]={{1,2},{4,5}};
+	int b[2][2]={{1,2},{4,5}};
+	int i,j,k;
+	clrscr();
+	for(i=0;i<2;i++)
+	{
+		for(j=0;j<2;j++)
+		{
+			if(a[i][j]==b[i][j])
+			{
+				k=1;
+			}
+			else
+			{
+				k=0;
+				goto z;
+			}
+		}
+	}
+	z:;
+	k==1 ? printf("yes"):printf("no");
+	getch();
+}

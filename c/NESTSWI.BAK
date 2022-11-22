@@ -1,0 +1,216 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c,d,e,f,g,h,i,j,k,l,m;
+	clrscr();
+	printf("1.mobaile\n");
+	printf("2.T.V.\n");
+	printf("3.A.C.\n");
+	printf("enter your product:-");
+	scanf("%d",&a);
+	switch(a)
+	{
+		case 1:
+			printf("1.samsung\n");
+			printf("2.redmi\n");
+			printf("3.oppo\n");
+			printf("enter your mobaile company:-");
+			scanf("%d",&b);
+			switch(b)
+			{
+				case 1:
+					printf("1.s22\n");
+					printf("2.s22 ultra\n");
+					printf("enter samsung modul:-");
+					scanf("%d",&c);
+					switch(c)
+					{
+						case 1:
+							printf("1,50,000\n");
+							break;
+						case 2:
+							printf("1,75,000\n");
+							break;
+						default:
+							printf("not awylebal\n:");
+							break;
+					}
+					break;
+
+				case 2:
+					printf("1.mi 10\n");
+					printf("2.mi 10 pro\n");
+					printf("enter redmi modul:-");
+					scanf("%d",&d);
+					switch(d)
+					{
+						case 1:
+							printf("15,000\n");
+							break;
+						case 2:
+							printf("18,000\n");
+							break;
+						default:
+							printf("not awylebal\n");
+							break;
+					}
+					break;
+				case 3:
+					printf("1.oppo a55\n");
+					printf("2.oppo a56\n");
+					printf("enter oppo modul:-");
+					scanf("%d",&e);
+					switch(e)
+					{
+						case 1:
+							printf("11,000\n");
+							break;
+						case 2:
+							printf("20,000\n");
+							break;
+						default:
+							printf("not awylebal\n");
+							break;
+					}
+					break;
+				default:
+					printf("invaliad number\n");
+					break;
+			}
+			break;
+		case 2:
+			printf("1.sony\n");
+			printf("2.samsung\n");
+			printf("3.LG\n");
+			printf("enter your campony:-");
+			scanf("%d",&f);
+			switch(f)
+			{
+				case 1:
+					printf("1.32inch\n");
+					printf("2.64inch\n");
+					printf("enter sony TV size:-");
+					scanf("%d",&g);
+					switch(g)
+					{
+						case 1:
+							printf("35,000\n");
+							break;
+						case 2:
+							printf("45,000\n");
+							break;
+						default:
+							printf("not awylebal:\n");
+							break;
+					}
+					break;
+				case 2:
+					printf("1.64inch\n");
+					printf("2.100inch\n");
+					printf("enter samsung TV size:-");
+					scanf("%d",&h);
+					switch(h)
+					{
+						case 1:
+							printf("65,000\n");
+							break;
+						case 2:
+							printf("1,00,000\n");
+							break;
+						default:
+							printf("not awylebal:\n");
+							break;
+
+					}
+					break;
+				case 3:
+					printf("1.32inich\n");
+					printf("2.128inch\n");
+					printf("enter LG TV size:-");
+					scanf("%d",&i);
+					switch(i)
+					{
+						case 1:
+							printf("78,000\n");
+							break;
+						case 2:
+							printf("90,000\n");
+							break;
+						default:
+							printf("not awyleball:\n");
+							break;
+					}
+					break;
+			}
+			break;
+		case 3:
+			printf("1.sony\n");
+			printf("2.samsung\n");
+			printf("3.LG\n");
+			printf("enter your campony:-");
+			scanf("%d",&j);
+			switch(j)
+			{
+				case 1:
+					printf("1.1.5 tan\n");
+					printf("2.2 tan\n");
+					printf("enter sony AC size:-");
+					scanf("%d",&k);
+					switch(k)
+					{
+						case 1:
+							printf("75,000\n");
+							break;
+						case 2:
+							printf("1,05,000\n");
+							break;
+						default:
+							printf("not awylebal:\n");
+							break;
+					}
+					break;
+				case 2:
+					printf("1.2 tan\n");
+					printf("2.2.5 tan\n");
+					printf("enter samsung AC size:-");
+					scanf("%d",&l);
+					switch(l)
+					{
+						case 1:
+							printf("65,000\n");
+							break;
+						case 2:
+							printf("1,00,000\n");
+							break;
+						default:
+							printf("not awylebal:\n");
+							break;
+
+					}
+					break;
+				case 3:
+					printf("1.1 tan\n\n");
+					printf("2.3 tan\n");
+					printf("enter LG TV size:-");
+					scanf("%d",&m);
+					switch(m)
+					{
+						case 1:
+							printf("78,000\n");
+							break;
+						case 2:
+							printf("1,45,000\n");
+							break;
+						default:
+							printf("not awyleball:\n");
+							break;
+					}
+					break;
+
+
+			}
+	 }
+
+	getch();
+}

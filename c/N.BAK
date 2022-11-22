@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void  main()
+{
+  char c='v',d='b';
+  int a=1000,b=2000;
+  double e=12.3,f=65.6;
+  float g=10.2,h=58.9;
+  clrscr();
+  printf("a values is:- %d\n",a);
+  printf("b values is:- %d\n",b);
+  printf("c values is:- %c\n",c);
+  printf("d values is:- %c\n",d);
+  printf("e values is:- %lf\n",e);
+  printf("f values is:- %lf\n",f);
+  printf("g values is:- %f\n",g);
+  printf("h values is:- %f\n",h);
+  getch();
+}

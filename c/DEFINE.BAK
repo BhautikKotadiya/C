@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+#define b 20
+void main()
+{
+	const int a=10;
+	clrscr();
+	printf("a is %d",a+b);
+
+	getch();
+
+}

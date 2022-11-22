@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+int replace(int a,int b,int c)
+{
+	c=a;
+	a=b;
+	b=c;
+	printf("value of a: %d\n",a);
+	printf("value of b: %d\n",b);
+	return 0;
+}
+void main()
+{
+	int a,b,c;
+	clrscr();
+	printf("enter value of a:- ");
+	scanf("%d",&a);
+	printf("enter value of b:- ");
+	scanf("%d",&b);
+	replace(a,b,c)
+	getch();
+}

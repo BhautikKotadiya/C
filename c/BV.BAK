@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int a=10,b=20;
+  clrscr();
+  printf("a+b add is:- %d\n",a+b);
+  printf("a-b sub is:- %d\n",a-b);
+  printf("a*b mul is:- %d\n",a*b);
+  printf("a/b div is:- %d\n",a/b);
+  getch();
+}

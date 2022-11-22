@@ -1,0 +1,43 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a=10,b=20;
+	clrscr();
+	printf(" arithmetic op\n");
+	printf("a values is:- %d\n",a+b);
+	printf("b values is:- %d\n",a*b);
+
+	printf(" relational op\n");
+	printf("a and b values is:- %d\n",a==b);
+	printf("a and b values is:- %d\n",a<=b);
+
+	printf(" assigmemt op\n");
+	printf("a and b values is:- %d\n",a+=b);
+	printf("a and b values is:- %d\n",a/=b);
+
+	printf(" logical op\n");
+	printf("a and b values is:- %d\n",a<b && b>a);
+	printf("a and b values is:- %d\n",a>b || a<b);
+	printf("a and b values is:- %d\n",!(a<b));
+
+	printf(" incriment/decrement op\n");
+	printf("b values is:- %d\n",b++);
+	printf("b values is:- %d\n",b--);
+
+	printf(" turnary op\n");
+	a<b?printf("the values is:- true\n"):printf("the values is:- false\n");
+	a>b?printf("the values is:- true\n"):printf("the values is:- false\n");
+
+	printf(" bitwise op\n");
+	printf("values is:- %d\n",a&b);
+	printf("values is:- %d\n",a<<b);
+	printf("values is:- %d\n",a>>b);
+
+
+
+
+
+	getch();
+
+}

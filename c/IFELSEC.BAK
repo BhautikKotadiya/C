@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	double age,number,aadhar;
+	clrscr();
+	printf("enter your age:- ");
+	scanf("%lf",&age);
+	if(age>=18)
+	{
+		printf("enter your aadhar number:- ");
+		scanf("%lf",&aadhar);
+		printf("enter your your phone number:- ");
+		scanf("%lf",&number);
+	}
+	else
+	{
+		printf("sorry you are try next time:\n");
+	}
+
+	getch();
+}

@@ -1,0 +1,18 @@
+//cude
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,j;
+	clrscr();
+	printf("enter your number:- ");
+	scanf("%d",&j);
+	printf("this is your cube:- \n");
+	for(i=1;i<=j;i++)
+	{
+		printf("%d = %d\n",i,i*i*i);
+		printf("%d = %d\n",i,i*i);
+	}
+
+	getch();
+}

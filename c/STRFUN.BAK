@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+	char name[10]="Bhautik";
+	char name2[10]={'B','H','A','U','T','I','K'};
+	clrscr();
+	printf("%d\n",strlen(name));
+	printf("%d\n",strcmp(name,name2));
+	printf("%s\n",strcpy(name,name2));
+	printf("%s\n",strcat(name,name2));
+	printf("%s\n",strlwr(name));
+	printf("%s\n",strupr(name));
+	printf("%s\n",strrev(name));
+	getch();
+}

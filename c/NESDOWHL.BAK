@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i=1,j=1;
+	clrscr();
+	do
+	{
+		printf("hiii\n");
+		do
+		{
+			printf("hello\n");
+			j++;
+		}
+		while(j<=5);
+	i++;
+	}
+	while(i<=6);
+
+	getch();
+}

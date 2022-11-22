@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int j,i=1,sum=0;
+	clrscr();
+	printf("enter your number:- ");
+	scanf("%d",&j);
+	printf("this is your sum:- ",j);
+	while(i<=j)
+	{
+		if(i%2==0)
+		{
+			 sum=sum+i;
+		}
+		i++;
+	}
+	printf("%d",sum);
+
+	getch();
+
+
+}

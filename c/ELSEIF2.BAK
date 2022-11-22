@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a;
+	clrscr();
+	printf("enter marks of exam:- ");
+	scanf("%d",&a);
+	if(a<=100 || a>=90)
+	{
+		printf("gread is a+\n");
+	}
+	else if(a<=89 || a>=80)
+	{
+		printf("gread is a\n");
+	}
+	else if(a<=79 || a>=70)
+	{
+		printf("gread is b+\n");
+	}
+	else if(a<=69 || a>=60)
+	{
+		printf("gread is b\n");
+	}
+	else if(a<=59 || a>=50)
+	{
+		printf("gread is c+\n");
+	}
+	else if(a<=49 || a>=40)
+	{
+		printf("gread is c\n");
+	}
+	else if(a<=39 || a>=0)
+	{
+		printf("fail");
+	}
+	else
+	{
+		printf("please enter right number\n");
+	}
+	getch();
+}

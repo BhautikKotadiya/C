@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a[10]={1,2,3,4,5,6,7,8,9,10};
+	int j,n,i;
+	clrscr();
+	printf("enter your number:- ");
+	scanf("%d",&j);
+	for(i=0;i<10;i++)
+	{
+		if(a[i]==j)
+		{
+			n=1;
+		}
+		else
+		{
+			n=0;
+		}
+	}
+	n==1 ? printf("yes"):printf("no");
+	getch();
+}

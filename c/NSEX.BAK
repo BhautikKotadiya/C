@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c;
+	clrscr();
+	printf("enter your choice\n");
+	scanf("%d",&a);
+	switch(a)
+	{
+		case 1:
+			printf("enter your choice\n");
+			scanf("%d",&b);
+			switch(b)
+			{
+				case 1:
+					printf("hello\n");
+					break;
+				case 2:
+					printf("hiii");
+					break;
+				default:
+					printf("invalid number");
+			}
+			break;
+		case 2:
+			printf("enter your choice\n");
+			scanf("%d",&c);
+			switch(c)
+			{
+				case 1:
+					printf("hello\n");
+					break;
+				case 2:
+					printf("hiii");
+					break;
+				default:
+					printf("invalid number");
+			}
+			break;
+		default:
+			printf("invalid number");
+			break;
+	}
+	getch();
+
+}

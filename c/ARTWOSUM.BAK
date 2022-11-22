@@ -1,0 +1,17 @@
+//sum of two array;
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a[3]={1,2,3};
+	int b[3]={1,2,3};
+	int i,sum=0;
+	clrscr();
+	for(i=0;i<3;i++)
+	{
+		sum=a[i]+b[i];
+		printf("this array sum is:- %d\n",sum);
+	}
+	getch();
+}

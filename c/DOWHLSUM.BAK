@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i=1,sum=0,j;
+	clrscr();
+	printf("enter your number:-");
+	scanf("%d",&j);
+	do
+	{
+		sum=sum+i;
+		i++;
+	}
+	while(i<=j);
+	printf("this is your answer:- %d",sum);
+
+	getch();
+}

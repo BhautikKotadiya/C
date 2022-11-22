@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int c=0,j,i=1;
+	clrscr();
+	printf("enter your number:- ");
+	scanf("%d",&j);
+	printf("this is your answer:- \n",j);
+	while(i<=j)
+	{
+		if(i%2==0)
+		{
+			c++;
+
+		}
+
+		i++;
+
+	}
+	printf("%d\n",c);
+
+	getch();
+
+}

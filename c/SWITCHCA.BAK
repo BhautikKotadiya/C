@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,l,w,ch;
+	double c,h,r;
+
+	clrscr();
+	printf("1.the value of square.\n");
+	printf("2.the value of circle.\n");
+	printf("3.the value of triangle.\n");
+	printf("4.the value of rectangle.\n");
+	printf("enter your choice:\n");
+	scanf("%d",&ch);
+
+	switch(ch)
+	{
+		case 1:
+			printf("enter area of the square:");
+			scanf("%d",&a);
+			printf("\n area of the square: %d",a*a);
+			break;
+		case 2:
+			printf("enter area of the circle:");
+			scanf("%lf",&r);
+			printf("\n area of the circle: %lf",3.14*r*r);
+			break;
+		case 3:
+			printf("enter area of the c:");
+			scanf("%lf",&c);
+			printf("enter area of the h:");
+			scanf("%lf",&h);
+			printf("\n area of the triangle: %lf",(c*h)/2);
+			break;
+		case 4:
+			printf("enter area of w:");
+			scanf("%d",&w);
+			printf("enter area of l:");
+			scanf("%d",&l);
+			printf("\n area of the rectangle: %d",a=w*l);
+			break;
+		default:
+			printf("pls enter the right value");
+			break;
+	}
+	getch();
+}

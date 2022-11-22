@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a[2][3]={{1,2,3},{4,5,6}};
+	int i,j,k=0;
+	clrscr();
+	for(i=0;i<2;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			if(a[i][j]%2==0)
+			{
+				k=a[i][j];
+			}
+		printf("your ans is:- %d",a[i][j]);
+		}
+	}
+
+	getch();
+}

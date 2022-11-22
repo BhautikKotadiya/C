@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a;
+	clrscr();
+	printf("enter your number:-");
+	scanf("%d",&a);
+	if(a<=0)
+	{
+		if(a>=0)
+		{
+			printf("a is zero:\n");
+		}
+		else
+		{
+			printf("a is negative:\n");
+		}
+
+	}
+	else
+	{
+		printf("a is positive:\n");
+	}
+
+	getch();
+}

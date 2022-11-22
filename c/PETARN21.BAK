@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,j;
+	clrscr();
+	for(i=1;i<=21;i++)
+	{
+		for(j=1;j<=9;j++)
+		{
+			if(i==10 || i==21
+			   || j==1 && i>10 & i<21
+			   || j==9 && i>10 & i<21
+			   || i==16 && j>2 & j<8
+			   || j==3 && i>16 & i<21
+			   || j==7 &&  i>16 & i<21
+			   || 11-i==j && j<6
+			   || i-1==j && j>4
+			   || j==5 && i<6
+			   || i==1 && j>5 & j<7
+			   || i==2 && j>6 & j<8
+			   || i==3 && j>6 & j<8
+
+			   )
+			{
+				printf("* ");
+			}
+			else
+			{
+				printf("  ");
+			}
+		}
+		printf("\n");
+	}
+	getch();
+}

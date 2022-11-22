@@ -1,0 +1,89 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{int i,j,matrix1[2][2],matrix2[2][2],sum[2][2],minus[2][2],multi[2][2],div[2][2];
+clrscr();
+for(i=0;i<2;i++)
+{
+for(j=0;j<2;j++)
+{
+printf("enter element");
+scanf("%d",&matrix1[i][j]);
+}
+}
+for(i=0;i<2;i++)
+{
+for(j=0;j<2;j++)
+{
+printf("enter element");
+scanf("%d",&matrix2[i][j]);
+}
+}
+for(i=0;i<2;i++)
+{
+for(j=0;j<2;j++)
+{
+sum[i][j]=matrix1[i][j]+matrix2[i][j];
+minus[i][j]=matrix1[i][j]-matrix2[i][j];
+multi[i][j]=matrix1[i][j]*matrix2[i][j];
+div[i][j]=matrix1[i][j]/matrix2[i][j];
+}
+}
+printf("\nsum of matrix1 and matrix2 is:");
+for(i=0;i<2;i++)
+{
+for(j=0;j<2;j++)
+{
+printf("%d",sum[i][j]);
+}
+printf("\n");
+}
+printf("\nminus of matrix1 nad matrix2 is:");
+for(i=0;i<2;i++)
+{
+for(j=0;j<2;j++)
+{
+printf("%d",minus[i][j]);
+}
+printf("\n");
+}
+printf("\nmulti of matrix1 nad matrix2 is:");
+for(i=0;i<2;i++)
+{
+for(j=0;j<2;j++)
+{
+printf("%d",multi[i][j]);
+}
+printf("\n");
+}
+printf("\ndiv of matrix1 and matrix2 is:");
+for(i=0;i<2;i++)
+{
+for(j=0;j<2;j++)
+{
+printf("%d",div[i][j]);
+}
+printf("\n");
+}
+getch();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

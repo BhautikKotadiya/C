@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+	char name[10]="Bhautik";
+	char name2[]={'B','H','A','U','T','I','K'};
+	clrscr();
+	printf("%s",name);
+	printf("%s",name2);
+	getch();
+}

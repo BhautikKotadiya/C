@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  int arr[50],size,i;
+  printf("how many element you want store in array?");
+  scanf("%d",&size);
+  printf("\n enetr %d elements",size);
+  for(i=0;i<size;i++)
+  scanf("%d",&arr[i]);
+  printf("\n element of this one dimensional array is:\n");
+  for(i=0;i<size;i++)
+  scanf("%d",arr[i]);
+  getch();
+  return 0;
+ }

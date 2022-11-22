@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b;
+	clrscr();
+	printf("enter your a number:- ");
+	scanf("%d",&a);
+	printf("enter your b number:- ");
+	scanf("%d",&b);
+	if(a>b)
+	{
+		printf("the number a is max\n");
+
+	}
+	else
+	{
+		printf("the number b is max\n");
+	}
+
+	getch();
+
+}

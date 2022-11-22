@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i=1,j;
+	clrscr();
+	printf("enter your number:-");
+	scanf("%d",&j);
+	do
+	{
+		printf("%d * %d = %d\n",i,i,i*j);
+		i++;
+	}
+
+
+
+	while(i<=10);
+
+	getch();
+}

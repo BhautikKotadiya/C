@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a[2][3]={{1,2,3},{4,5,6}};
+	int i,j,k;
+	clrscr();
+	printf("enter your number:- ");
+	scanf("%d",&k);
+	for(i=0;i<2;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			if(a[i][j]==0)
+			{
+				k=1;
+				goto z;
+			}
+			else
+			{
+				k=0;
+				break;
+			}
+		}
+	}
+	z:;
+	k==1 ? printf("yes"):printf("no");
+	getch();
+}

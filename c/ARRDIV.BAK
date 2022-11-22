@@ -1,0 +1,21 @@
+//div with 4
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a[10]={2,4,6,8,10,12,14,16,18,20};
+	int i;
+	clrscr();
+	for(i=0;i<10;i++)
+	{
+		if(a[i]%4==0)
+		{
+
+			printf("this is your ans:- %d\n",a[i]);
+		}
+
+	}
+
+	getch();
+}

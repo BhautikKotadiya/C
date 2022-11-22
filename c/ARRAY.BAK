@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a[10]={1,2,3,4,5,6,7,8,9,10};
+	int i;
+	clrscr();
+	for(i=0;i<a[i];i++)
+	{
+		if(a[i]%2==1)
+		{
+			printf("this is your ans:- %d\n",a[i]);
+		}
+	}
+	getch();
+}

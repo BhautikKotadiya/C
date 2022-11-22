@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a=10;
+	double b;
+	clrscr();
+	b=(double)a;
+	printf("%lf",b);
+
+	getch();
+}
